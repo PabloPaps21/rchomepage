@@ -1,6 +1,6 @@
 <template>
-  <section class="list">
-    <img src="../../public/people.jpg" alt="tech">
+  <div class="list">
+    <img src="/people.jpg" alt="tech">
     <div class="lista">
       <ul>
         <li>Democratiza el uso de la tecnología orientada al cumplimiento regulatorio</li>
@@ -10,7 +10,7 @@
         <li>Fomenta mayor inclusión financiera</li>
       </ul>
     </div>
-  </section>
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -24,6 +24,9 @@
 .list > img {
   margin-left: 70px;
   max-width: 570px;
+}
+ul {
+  list-style-type: disc;
 }
 ul > li {
   color: #7a7a7a;

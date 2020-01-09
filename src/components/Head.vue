@@ -23,7 +23,7 @@ a {
   text-decoration: none;
 }
 .descubre {
-  background-image: url('../../public/home-banner.jpg');
+  background-image: url('/home-banner.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,7 +64,6 @@ a {
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
-
 }
 .descubre-btn {
   font-family: "Montserrat", Sans-serif;
@@ -117,6 +116,10 @@ a {
   .content {
     width: 70%;
     margin: 0;
+  }
+  .descubre-btns {
+    display: flex;
+    flex-direction: row;
   }
 }
 @media (min-width: 1000px){

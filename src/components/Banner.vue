@@ -5,6 +5,9 @@
   </div>
 </template>
 <style lang="scss" scoped>
+a {
+  text-decoration: none;
+}
 .banner{
   padding: 60px 0;
   display: flex;
@@ -54,6 +57,4 @@
     padding: 10px 30px;
   }
 }
-@media (min-width: 921px) and (max-width: 999px) {}
-@media (min-width: 1000px) {}
 </style>

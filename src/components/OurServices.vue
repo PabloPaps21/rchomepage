@@ -12,15 +12,15 @@
       </div>
       <div class="services-colums">
           <div class="col">
-            <img src="../../public/70-E-Banking.png" alt="E-Banking">
+            <img src="/70-E-Banking.png" alt="E-Banking">
             <p>Mitiga el riesgo de interpretación</p>
           </div>
           <div class="col">
-            <img src="../../public/79-Financial-Report.png" alt="Financial-Report">
+            <img src="/79-Financial-Report.png" alt="Financial-Report">
             <p>Simplifica la detección de errores</p>
           </div>
           <div class="col">
-            <img src="../../public/67-Targets.png" alt="Targets">
+            <img src="/67-Targets.png" alt="Targets">
             <p> Eficiente y ágil de actualizar</p>
           </div>
       </div>

@@ -10,7 +10,7 @@
       Esto se traduce en +$340 millones de pesos por
       multas impuestas anualmente, sin mencionar el
       impacto reputacional.</p>
-    <img src="../../public/cnbv1.png" alt="CNVB">
+    <img src="/cnbv1.png" alt="CNVB">
     <p class="why-cnbv ">Comisión Nacional Bancaria y de Valores</p>
   </div>
 </template>
