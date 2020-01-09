@@ -30,6 +30,7 @@ ul > li {
   line-height: 50px;
   font-family: 'Varela Round',sans-serif;
   font-weight: 500;
+  text-align: left;
 }
 @media (min-width: 320px) and (max-width: 920px) {
   .list {
