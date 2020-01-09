@@ -20,6 +20,7 @@ import Banner from '@/components/Banner.vue';
 import AskFor from '@/components/AskFor.vue';
 import Foot from '@/components/Foot.vue';
 
+
 export default {
   name: 'home',
   components: {

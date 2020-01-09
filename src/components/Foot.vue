@@ -67,7 +67,15 @@
       <div class="footer-col">
         <div class="ubicacion">
           <h2>UBICACIÓN</h2>
-          <img src="/mapa.png" alt="mapa">
+          <!-- <img src="/mapa.png" alt="mapa"> -->
+          <div class="mapa-footer">
+            <div class="gmap_canvas">
+              <iframe  width="219" height="170" class="mapa_canvas"
+              src="https://maps.google.com/maps?q=Benito%20Ju%C3%A1rez%2C%20Col.%20del%20Valle%2C%2003100%20CDMX%2C%20M%C3%A9xico&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+              </iframe>
+              <!-- Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a> -->
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -157,10 +165,24 @@ a {
   font-weight: 400;
   font-size: 20px;
 }
-
+.mapa-footer {
+  margin-top: 20px;
+}
 .ubicacion > img {
   margin-top: 30px;
   max-width: 260px;
+}
+.mapouter {
+  position:relative;
+  text-align:right;
+  height:170px;
+  width:300px;
+}
+.mapa_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:170px;
+  width:300px;
 }
 .aut-img {
   display:flex;
@@ -269,7 +291,7 @@ a {
   .contacto {
     width: 95%;
   }
-  .ubicacion > img {
+  .mapa-footer {
     max-width: 185px;
   }
   .footer-col {
@@ -294,7 +316,7 @@ a {
   .footer-col {
     width: 20%;
   }
-  .ubicacion > img {
+  .mapa-footer{
     max-width: 185px;
   }
   .somos {
