@@ -8,7 +8,7 @@
           Somos la compañía de RegTech que
           maximiza el adecuado cumplimiento
           con la información regulatoria solicitada
-          por la Comisión Nacional Bancaria y de Valores(CNBV).</p>
+          por la Comisión Nacional Bancaria y de Valores (CNBV).</p>
       </div>
       <div class="services-colums">
           <div class="col">
